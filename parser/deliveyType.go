@@ -64,8 +64,8 @@ func periodTypeToString(periodVal uint, periodType uint) (periodTypeWords string
 	return periodTypeWords
 }
 
-const HOUR = uint(1)
-const WORK_DAY = uint(2)
-const DAY = uint(3)
-const WEEK = uint(4)
-const MONTH = uint(5)
+const HOUR = 1
+const WORK_DAY = 2
+const DAY = 3
+const WEEK = 4
+const MONTH = 5
